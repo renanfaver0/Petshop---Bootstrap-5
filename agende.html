@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-br">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Renan Favero">
+    <meta name="copyright" content="© 2021 Petmania" />
+    <meta name="description" content="Petmania Website">
+    <meta name="keywords" content="pet shop, cachorro, gato, acessorios, banho e tosa">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Roboto+Mono:wght@100&family=Source+Sans+3:wght@200&display=swap"
+      rel="stylesheet">
+
+    <title>Agende seu horário</title>
+
+  <!--Cabeçalho-->  
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-light" style="background-color: #b66c6c;">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="index.html">Pagina Inical</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="produtos.html">Nossos Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="agende.html">Agende um horário</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="banhoetosa.html" tabindex="-1" aria-disabled="true">Banho e tosa</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <!--Logo da página-->
+      <div class="alinhamento">
+        <img src="imagens/petshoplogo2.png" width="270" class="img-fluid" alt="imagem do logo">
+      </div>
+    </header>
+    
+    <!--Conteúdo principal-->
+    <main>
+      <div id="atual">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-2 fs-4 fw-bold offset-md-5">
+              <label for="inputEmail4">Email:</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group fs-4 fw-bold col-md-2 offset-md-5">
+            <label for="inputAddress">Endereço:</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Rua, número, bairro">
+          </div>
+          <div class="form-group fs-4 fw-bold col-md-2 offset-md-5">
+            <label for="inputAddress2">Endereço 2:</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-2 fs-4 fw-bold offset-md-5">
+              <label for="inputCity">Cidade:</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
+            </div>
+            <div class="form-group fs-4 fw-bold col-md-2 offset-md-5">
+              <label for="inputEstado">Estado:</label>
+              <input type="text" class="form-control" id="inputEstado" placeholder="Estado">
+            </div>
+            <div class="form-group col-md-2 fs-4 fw-bold offset-md-5">
+              <label for="inputCEP">CEP:</label>
+              <input type="text" class="form-control" id="inputCEP">
+            </div>
+          </div>
+          <div class="mb-2 p-4 col-md-2 fw-bold fs-5 offset-md-5">
+            <label for="Textarea" class="form-label">Informe o dia e o horário desejado para o agendamento:</label>
+            <textarea class="form-control" id="Textarea" rows="3"></textarea>
+          </div>
+          <div class="form-group fw-bold fs-5 mb-2 offset-md-5 p-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Lembrar informações?
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-dark fw-bold fs-5 offset-md-6">Agendar</button>
+        </form>
+      </div>
+    </main>
+    <br><br>
+    
+    <!--Rodapé-->
+    <footer class="text-center" style="background-color: #b66c6c;">
+      <div class="container p-4 pb-0">
+        <section class="">
+          <form action="">
+            <div class="row d-flex justify-content-center">
+              <div class="col-auto fw-bold">
+                <p class="pt-2">
+                  Deseja receber promoções?
+                </p>
+              </div>
+              <div class="col-md-5 col-12">
+                <div class="form-outline mb-4 fw-bold">
+                  <input type="email" id="form5Example2" class="form-control" />
+                  <label class="form-label" for="form5Example2">Informe seu e-mail</label>
+                </div>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-dark mb-4">
+                  Enviar
+                </button>
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-3 fw-bold">
+        © 2021 Copyright: Petmania
+      </div>
+
+      <!--Ícones das redes sociais-->
+      <div class="text-center p-2 fw-bold">
+        Nos siga nas redes sociais:
+        <div class="alinhamento">
+          <img src="icones/facebook.png" width="30" class="img-fluid" alt="icone facebook">
+          <img src="icones/instagram.png" width="30" class="img-fluid" alt="icone instagram">
+          <img src="icones/twitter.png" width="30" class="img-fluid" alt="icone twitter">
+        </div>
+      </div>
+    </footer>
+    
+    <!--Script Bootstrap 5-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+  </body>
+</html>

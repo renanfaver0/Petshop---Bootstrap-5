@@ -1,0 +1,44 @@
+/* Fonte adicionada na página */
+body {
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+/* Utilização da class alinhamento para alguns itens da página */
+.alinhamento {
+  text-align: center;
+}
+
+/* Efeito de transição que foram adicionadas nas imagens da página "index". */ 
+.opcoes {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+/* Efeito de transformação ao passar o mouse nas imagens que foram adicionadas na página "index". */
+.opcoes:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/* Efeito de transição e opacidade que foram adicionados nas imagens da página "banhoetosa". */
+.imagem-banho {
+  opacity: 1;
+  transition: 400ms;
+
+}
+
+/* Efeito de opacidade ao passar o mouse nas imagens que foram adicionadas na página "banhoetosa" */ 
+.imagem-banho:hover {
+  opacity: 0.5;
+}
+
+/* Efeito de transição e opacidade que foram adicionados nas imagens da página "banhoetosa". */
+.imagem-tosa {
+  opacity: 1;
+  transition: 400ms;
+}
+
+/* Efeito de opacidade ao passar o mouse nas imagens que foram adicionadas na página "banhoetosa" */ 
+.imagem-tosa:hover {
+  opacity: 0.5;
+}
